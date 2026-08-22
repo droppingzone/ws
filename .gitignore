@@ -1,0 +1,5 @@
+node_modules
+.astro
+dist
+first.pem
+login_url
