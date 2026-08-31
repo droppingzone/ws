@@ -6,11 +6,16 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "astro": "^5.18.2",
     "typescript": "^5.7.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
   },
   "engines": {
     "node": ">=22.22.0"
