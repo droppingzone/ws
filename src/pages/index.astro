@@ -1,5 +1,5 @@
 ---
-const greeting: string = "Hello, world";
+import { greeting } from "../lib/greeting";
 ---
 
 <html lang="en">
@@ -8,6 +8,6 @@ const greeting: string = "Hello, world";
     <title>Hello, world</title>
   </head>
   <body>
-    <h1>{greeting}</h1>
+    <h1>{greeting ("world")}</h1>
   </body>
 </html>
